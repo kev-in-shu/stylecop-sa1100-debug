@@ -7,7 +7,7 @@
         {
         }
 
-        public void Test()
+        public void Init()
         {
             // There should be a Warning SA1100 here
             base.Mode = 1;
@@ -21,7 +21,7 @@
             base.FullTest(@"a");
         }
 
-        public void Test2()
+        public void Pass()
         {
             // There should be a Warning SA1100 here
             base.Mode = 1;
